@@ -80,7 +80,7 @@ class Register extends Component {
                             value={this.state.email}
                             onChange={this.onChange} 
                             error={errors.email}
-                            info="我们使用了gravatar全球公认头像，如果需要有头像显示，请使用在gravatar注册的邮箱"
+                            info="使用gravatar全球公认头像，如果需要有头像显示，请使用在gravatar注册的邮箱"
                         />
                         <TextFieldGroup
                             type="password"
